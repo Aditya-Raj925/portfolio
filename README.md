@@ -6,7 +6,7 @@
   <title>Aditya Raj | Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    /* Reset & base */
+    
 * {
   margin: 0;
   padding: 0;
@@ -17,8 +17,6 @@ body {
   color: #333;
   background-color: #e6f3ff;
 }
-
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -52,8 +50,6 @@ nav a.active {
   border-bottom: 2px solid #d11a2a;
   color: #d11a2a;
 }
-
-/* Hero Section */
 .hero {
   min-height: 90vh;
   display: flex;
@@ -112,15 +108,13 @@ nav a.active {
   max-width: 600px;
   line-height: 1.6;
 }
-
-/* About Section */
 .about-section {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 80px 60px;
   gap: 40px;
-  margin-bottom: 80px; /* Added spacing before skills */
+  margin-bottom: 80px; 
 }
 .about-image img {
   width: 320px;
@@ -152,8 +146,6 @@ nav a.active {
 .about-details a:hover {
   text-decoration: underline;
 }
-
-/* Skills Section */
 .skills-page {
   text-align: center;
   padding: 60px 10px;
@@ -186,12 +178,10 @@ nav a.active {
   flex: 0 0 40%;
   max-width: 40%;
   background-color: #ffffff;
-  padding: 20px; /* Optional: reduce internal padding too */
+  padding: 20px; 
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 119, 204, 0.1);
-}
-
-.skill-category h2 {
+}.skill-category h2 {
   color: #005fa3;
   margin-bottom: 20px;
   font-size: 1.3em;
@@ -215,8 +205,6 @@ nav a.active {
   background-color: #0077cc;
   transition: width 1s ease;
 }
-
-/* Footer */
 .site-footer {
   text-align: center;
   padding: 30px;
@@ -225,8 +213,6 @@ nav a.active {
   color: #777;
   font-size: 0.9rem;
 }
-
-/* Responsive */
 @media (max-width: 860px) {
   .about-section {
     flex-direction: column;
@@ -243,8 +229,6 @@ nav a.active {
   </style>
 </head>
 <body>
-
-  <!-- Header -->
   <header>
     <div class="logo">Aditya Raj</div>
     <nav>
@@ -302,10 +286,10 @@ nav a.active {
     <h1>My Skills</h1>
     <p class="skills-intro">Here are some of the tools and technologies I excel at:</p>
 
-    <div class="skills-grid">
+   <div class="skills-grid">
 
-      <!-- First Row: Programming & Tools -->
-      <div class="skills-row">
+      
+   <div class="skills-row">
         <div class="skill-category">
           <h2>Programming Languages</h2>
           <div class="skill"><span>HTML</span><div class="progress-bar"><div class="progress" style="width: 95%;"></div></div></div>
@@ -314,15 +298,13 @@ nav a.active {
           <div class="skill"><span>C++</span><div class="progress-bar"><div class="progress" style="width: 88%;"></div></div></div>
         </div>
 
-        <div class="skill-category">
+   <div class="skill-category">
           <h2>Tools & Frameworks</h2>
           <div class="skill"><span>Git & GitHub</span><div class="progress-bar"><div class="progress" style="width: 90%;"></div></div></div>
           <div class="skill"><span>VS Code</span><div class="progress-bar"><div class="progress" style="width: 92%;"></div></div></div>
           <div class="skill"><span>React</span><div class="progress-bar"><div class="progress" style="width: 80%;"></div></div></div>
         </div>
       </div>
-
-      <!-- Second Row: Soft Skills -->
       <div class="skills-row center">
         <div class="skill-category">
           <h2>Soft Skills</h2>
@@ -332,10 +314,10 @@ nav a.active {
         </div>
       </div>
 
-    </div>
+   </div>
   </section>
 
-  <!-- Footer -->
+
   <footer class="site-footer" id="contact">
     <p>© 2025 Aditya Raj</p>
   </footer>
